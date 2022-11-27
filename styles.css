@@ -1,0 +1,8 @@
+#location-button{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    size: 30px;
+}
+ #location-button:hover{ 
+    color: rgb(255, 170, 12);
+}
