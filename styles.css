@@ -8,26 +8,42 @@ nav{
     background-color: rgb(91, 91, 91);
 }
 
-#Header{
-    margin-top: 0%;
-    padding-top: 2px;
-    padding-left: 5px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: lighter;
-    color:rgb(214, 212, 212);
+
+.container{
+    margin-top: 100px;
 }
 
 
+#name{
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 19%;
+    justify-content: center;
+}
+
+#description{
+    padding-left: 43%;
+    padding-right: 43%;
+    justify-content: center;
+}
+
+#order-button{
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
 a:link {
     text-decoration: none;
-    color: rgb(84, 84, 84);
+    color: rgb(126, 126, 126);
     font-weight: bold;
 }
 a:visited {
     text-decoration: none;
-    color:rgb(84, 84, 84);
+    color:rgb(126, 126, 126);
   }
 a:hover{
     text-decoration: none;
-    color: rgb(84, 84, 84);
+    color:rgb(126, 126, 126);
 }

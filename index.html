@@ -12,13 +12,13 @@
 
    <nav class="navbar navbar-dark bg-dark fixed-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Offcanvas dark navbar</a>
+    <a class="navbar-brand" href="#">The Food Place</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Food Place</h5>
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
@@ -27,19 +27,19 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="location.html">Our Locations</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
+              Menus
             </a>
             <ul class="dropdown-menu dropdown-menu-dark">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Vegan Friendly</a></li>
+              <li><a class="dropdown-item" href="#">Allergy Free</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Full Menu</a></li>
             </ul>
           </li>
         </ul>
@@ -55,20 +55,14 @@
    <div class="container">
     <div class="row">
         <div class="col">
-          <h2>falafel</h2>
-           <img src="falafel.jpg" alt="falafel">
-            <p>chickpea, herbs and spices.</p>
+            <h1 id="name">THE FOOD PLACE</h1>
         </div>
-        <div class="col">
-          <h2>Pasta Salad</h2>
-           <img src="Pasta.jpg" alt="salad">
-            <p>Pasta. vegetables and mozzarella.</p>
-        </div>
+          <p id="description">A place For food</p>
     </div>
    </div>
 
-    <button type="button" class="btn btn-outline-dark">
-    <a class="link" target="_blank" href="location.html">Our Location</a>
+    <button id="order-button" type="button" class="btn btn-outline-dark">
+    <a class="link" target="_blank" href="order.html">Place Order</a>
 </button>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
